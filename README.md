@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Road to 3D Website
+
+Welcome to the "Road to 3D Website" project! 🌐🚀 In this journey, we will explore the exciting path to mastering the creation of 3D websites using technologies like Three.js and GSAP. This project is built with Next.js, a powerful React framework, to showcase the seamless integration of these technologies into modern web development.
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to get the project up and running on your local machine:
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/road-to-3d-website.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd road-to-3d-website
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Running the Project
+
+To start the Next.js development server, run the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) in your browser to see the project in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Turbo Mode
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We have included an additional script to enhance the development experience. Run the following command to enable Turbo Mode:
+
+```bash
+npm run turbo
+```
+
+This script leverages Next.js Turbo to optimize your development server for faster builds.
+
+## Project Structure
+
+- **`pages/`**: Contains Next.js pages.
+- **`public/`**: Static assets such as images, styles, and 3D models (Coming Soon).
+- **`components/`**: Reusable components.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To dive deeper into the technologies used in this project, check out the official documentation:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Three.js Documentation](https://threejs.org/docs)
+- [GSAP Documentation](https://greensock.com/docs/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding! 🚀✨
