@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "turbo": "next dev --turbo",
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.9",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^1.0.39",
+    "framer-motion": "^11.0.3",
+    "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "typescript": "^5",
